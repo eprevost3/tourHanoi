@@ -1,0 +1,54 @@
+#stats{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+
+}
+#nbMoves{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    background-color: rgba(150, 50, 200, 0.8);
+
+}
+
+#textNbMoves{
+    display: flex;
+    background-color: grey;
+    border-radius: 10px;
+    border-width: thick;
+    border-color: rgba(100, 100, 100, 1);
+    border-style: solid;
+    width: 100px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#textNbMoves:hover{
+    background-color : orange;
+}
+
+#diskNum{
+    flex-grow: 1;
+}
+
+#speed{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(50, 100, 200, 0.8);
+}
+
+#diskNum{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(150, 150, 150, 0.8);
+}

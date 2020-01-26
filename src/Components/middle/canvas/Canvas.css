@@ -1,0 +1,11 @@
+#canvasBox{
+    background-color: rgba(50, 50, 50, 0.9);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    min-width: 1300px;
+}
+
+.disk{
+    position: absolute;
+}

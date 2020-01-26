@@ -1,0 +1,19 @@
+#foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    background-color: rgba(120, 120, 120, 0.5);
+}
+
+#id{
+    padding: 5px;
+}
+
+ #pause{
+     padding: 5px;
+ }
+
+ #play{
+     padding: 5px;
+ }
