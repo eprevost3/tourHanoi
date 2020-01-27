@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/tourHanoi/precache-manifest.9b9269f07bfa57bf2248561c1e0bc433.js"
+  "/tourHanoi/precache-manifest.ec5f8e2ebe7ec73468eb7e5c572258ec.js"
 );
 
 self.addEventListener('message', (event) => {

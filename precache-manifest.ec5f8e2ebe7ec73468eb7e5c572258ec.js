@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e43237d34e39537d9407c712c898869f",
+    "revision": "0938636338c92b56bdcef7c1e27366d4",
     "url": "/tourHanoi/index.html"
   },
   {
-    "revision": "37b80310ca09b47ab61d",
+    "revision": "391bd7f272d926a12911",
     "url": "/tourHanoi/static/css/main.39712af7.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tourHanoi/static/js/2.db6fb1ab.chunk.js.LICENSE"
   },
   {
-    "revision": "37b80310ca09b47ab61d",
-    "url": "/tourHanoi/static/js/main.78afca65.chunk.js"
+    "revision": "391bd7f272d926a12911",
+    "url": "/tourHanoi/static/js/main.41c7c2c7.chunk.js"
   },
   {
     "revision": "de5b8ce4f36ce6f7b59a",

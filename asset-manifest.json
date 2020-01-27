@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/tourHanoi/static/css/main.39712af7.chunk.css",
-    "main.js": "/tourHanoi/static/js/main.78afca65.chunk.js",
-    "main.js.map": "/tourHanoi/static/js/main.78afca65.chunk.js.map",
+    "main.js": "/tourHanoi/static/js/main.41c7c2c7.chunk.js",
+    "main.js.map": "/tourHanoi/static/js/main.41c7c2c7.chunk.js.map",
     "runtime-main.js": "/tourHanoi/static/js/runtime-main.2c10a906.js",
     "runtime-main.js.map": "/tourHanoi/static/js/runtime-main.2c10a906.js.map",
     "static/js/2.db6fb1ab.chunk.js": "/tourHanoi/static/js/2.db6fb1ab.chunk.js",
     "static/js/2.db6fb1ab.chunk.js.map": "/tourHanoi/static/js/2.db6fb1ab.chunk.js.map",
     "index.html": "/tourHanoi/index.html",
-    "precache-manifest.9b9269f07bfa57bf2248561c1e0bc433.js": "/tourHanoi/precache-manifest.9b9269f07bfa57bf2248561c1e0bc433.js",
+    "precache-manifest.ec5f8e2ebe7ec73468eb7e5c572258ec.js": "/tourHanoi/precache-manifest.ec5f8e2ebe7ec73468eb7e5c572258ec.js",
     "service-worker.js": "/tourHanoi/service-worker.js",
     "static/css/main.39712af7.chunk.css.map": "/tourHanoi/static/css/main.39712af7.chunk.css.map",
     "static/js/2.db6fb1ab.chunk.js.LICENSE": "/tourHanoi/static/js/2.db6fb1ab.chunk.js.LICENSE",
@@ -23,6 +23,6 @@
     "static/js/runtime-main.2c10a906.js",
     "static/js/2.db6fb1ab.chunk.js",
     "static/css/main.39712af7.chunk.css",
-    "static/js/main.78afca65.chunk.js"
+    "static/js/main.41c7c2c7.chunk.js"
   ]
 }
