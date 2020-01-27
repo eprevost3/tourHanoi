@@ -16,7 +16,7 @@ const Header = ({getAction, lang, dispatch}) => {
     console.log("unrender");
     return(
         <div id="header">
-            <Button id='home' image = 'home' alt = 'Flag' title = {translations[lang].titleHome} onclickFunction = {()=>{}}/>
+            <Button id='home' image = 'home' alt = 'Flag' title = {translations[lang].titleHome} onClick = {()=>{window.location.href = 'https://eprevost3.github.io/homepage/'}}/>
             <div id="title">{translations[lang].welcome}</div>
             <Button id='lang' image = {translations[lang].image} alt = 'Flag' title = {translations[lang].titleFlag} onClick = {() => {changeLangage()}}/>
 
