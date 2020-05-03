@@ -1,6 +1,5 @@
 #explanations{
-    display: flex;
-    flex-direction: column;
+    display: block;
     width: 30%;
     padding: 15px;
     background-color: rgba(100, 100, 200, 0.95);
@@ -9,4 +8,5 @@
 p.explanations{
     text-align: justify;
     text-justify: inter-word;
+    font-size: calc(5px + 1.4vh);
 }

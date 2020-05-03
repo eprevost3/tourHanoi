@@ -211,8 +211,6 @@ class DealDisks extends React.Component{
 
     render(){
         this.init()
-
-        console.log('onrenderdealdisk', this.props);
         // list containing all details about disks, position order etc
         return(
             <div>

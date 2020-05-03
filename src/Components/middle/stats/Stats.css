@@ -1,7 +1,8 @@
 #stats{
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 10%;
+    font-size: calc(7px + 1vh);
 
 }
 #nbMoves{
@@ -16,10 +17,10 @@
 
 #textNbMoves{
     display: flex;
-    background-color: grey;
+    background-color: rgba(100, 100, 100, .7);
     border-radius: 10px;
     border-width: thick;
-    border-color: rgba(100, 100, 100, 1);
+    border-color: rgba(56, 16, 62, 0.47);
     border-style: solid;
     width: 100px;
     height: 40px;
@@ -29,7 +30,7 @@
 
 
 #textNbMoves:hover{
-    background-color : orange;
+    background-color : rgba(118, 19, 132, 0.63);
 }
 
 #diskNum{

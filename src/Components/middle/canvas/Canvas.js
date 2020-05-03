@@ -7,9 +7,9 @@ import DealDisks from './DealDisks'
 class Canvas extends React.Component{
     constructor(props){
         super(props)
-        // sum of the weights of the each css bloc to get the ratio
-        this.heightCanvas = "500"
-        this.widthCanvas = "1300"
+        // height found manually, bad bad... but most straightforward way
+        this.heightCanvas = "" + (window.innerHeight * .7)
+        this.widthCanvas = "" + (window.innerWidth * .6)
 
         // action to do: pause the animation, stop it, start it
         this.getAction = this.props.getAction
@@ -48,7 +48,7 @@ class Canvas extends React.Component{
 
     render(){
         const idPegs = [1, 2, 3]
-        console.log("onrendercanvas", this.nbDisks);
+
         return(
             <div id="canvasBox">
             {idPegs.map((pegNum) => (<DrawPeg key = {pegNum}

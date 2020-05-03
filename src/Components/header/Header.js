@@ -11,14 +11,17 @@ const Header = ({getAction, lang, dispatch}) => {
             type : lang === 'fr' ? 'us' : 'fr'
         }
         dispatch(action)
-        console.log('bonjourlépés', action);
+
     }
-    console.log("unrender");
     return(
         <div id="header">
-            <Button id='home' image = 'home' alt = 'Flag' title = {translations[lang].titleHome} onClick = {()=>{window.location.href = 'https://eprevost3.github.io/homepage/'}}/>
+            <Button id='home' image = 'home' alt = 'Flag' title = {translations[lang].titleHome}
+                onClick = {()=>{window.location.href = 'https://eprevost3.github.io/homepage/'}}
+                overWriteCssProperties = {{height : "15vh", width : "15vh"}}/>
             <div id="title">{translations[lang].welcome}</div>
-            <Button id='lang' image = {translations[lang].image} alt = 'Flag' title = {translations[lang].titleFlag} onClick = {() => {changeLangage()}}/>
+            <Button id='lang' image = {translations[lang].image} alt = 'Flag' title = {translations[lang].titleFlag}
+                onClick = {() => {changeLangage()}}
+                overWriteCssProperties = {{height : "15vh", width : "15vh"}}/>
 
         </div>
         )

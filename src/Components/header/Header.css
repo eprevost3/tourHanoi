@@ -11,6 +11,6 @@
 #title{
     display: flex;
     width: 60%;
-    font-size: 2em;
+    font-size: calc(15px + 2vh);
     font-weight: bold;
 }

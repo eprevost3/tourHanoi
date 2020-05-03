@@ -8,8 +8,8 @@ const Explanations = (props) => {
     return(
         <div id="explanations">
             <h2>{translations[props.lang]["expTitle"]}</h2>
-            <p class = "explanations">{translations[props.lang]["expIntro"]}</p>
-            <p class = "explanations">{translations[props.lang]["expInter"]}</p>
+            <p className = "explanations">{translations[props.lang]["expIntro"]}</p>
+            <p className = "explanations">{translations[props.lang]["expInter"]}</p>
         </div>
     )
 }
