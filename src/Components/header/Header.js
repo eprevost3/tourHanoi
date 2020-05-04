@@ -5,7 +5,6 @@ import Button from '../components/Button'
 import translations from '../lang/translations'
 
 const Header = ({getAction, lang, dispatch}) => {
-
     function changeLangage(){
         const action = {
             type : lang === 'fr' ? 'us' : 'fr'

@@ -5,7 +5,7 @@ import translations from '../../lang/translations'
 
 // displays the number of moves that have been played until now
 const NbMoves = (props) => {
-    console.log(props.nbMovesPlayed, props);
+
     return(
         <div id = "nbMoves">
             {translations[props.lang]["nbMoves"]}

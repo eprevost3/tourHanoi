@@ -25,7 +25,7 @@ const translations = {
                       "plus petit que lui.",
         'expInter' : "Différentes méthodes permettent de résoudre ce problème en un minimum " +
                       "de coups. La plus intéressante étant sans aucun doute la méthode récursive. " +
-                      "En effet 6 lignes de code (dont la déclaration de la fonction et le return) suffisent." +
+                      "En effet 6 lignes de code (dont la déclaration de la fonction et le return) suffisent. " +
                       "La sobriété et l'efficacité de cette résolution expliquent sans doute pourquoi " +
                       "les tours d'Hanoi sont un grand classique lorsque l'on enseigne " +
                       "la récursivité.",
@@ -47,17 +47,17 @@ const translations = {
         'expTitle' : 'The Hanoi Towers',
         'expIntro' :  "The Hanoi Towers are a simple game invented by the French mathematician" +
                       " Edouard Lucas (19th century). The principle is as follows: " +
-                      "we have different sized discs on the same rack" +
+                      "we have discs of different size on the same rack" +
                       "(let's choose the left-most support). A disc can be " +
                       "placed on another one only if it is smaller. So the " +
                       "discs are stacked from largest to smallest. The objective is "+
                       " then to move the stack to another rack, moving the discs " +
                       "one by one, with a ban on putting one larger disc on top of a smaller one ",
         'expInter' : "Different methods can solve this problem in a minimum amount of moves. " +
-                      "The most interesting method is undoubtedly the recursive method." +
+                      "The most interesting method is undoubtedly the recursive method. " +
                       "Indeed, six lines of code (including the function declaration and the return) are sufficient." +
-                      "The sobriety and effectiveness of this resolution explain why " +
-                      "The towers of Hanoi are a classic when teaching recursivity.",
+                      " The sobriety and effectiveness of this resolution explain why " +
+                      "the towers of Hanoi are a classic when teaching recursivity.",
     }
 }
 

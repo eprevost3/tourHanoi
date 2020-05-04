@@ -161,7 +161,7 @@ class DealDisks extends React.Component{
     }
 
     moveDisk = (action) => {
-        console.log(action,);
+
         if((action === 'PLAY') && (this.nbMovesDone < this.nbMovesMax)){
             // getting the starting peg on which we take the disk, and the peg on which the latter is moved to
             var [currPegId, newPegId] = this.listPegsDisks[this.nbMovesDone]

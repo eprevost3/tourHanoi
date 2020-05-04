@@ -11,7 +11,7 @@ class App extends React.Component{
         super(props)
         // setting the property in charge of triggering the animation, pausing it or stopping + resetting it
         this.action = 'PAUSE'
-        this.state = {'lang' : 'fr'}
+        this.state = {'lang' : this.readCookie().langage || 'us',}
     }
     // changes the state value to either PAUSE, STOP, PLAY
     actionChange = (action) => {this.action = action}
@@ -27,22 +27,33 @@ class App extends React.Component{
         else{return(this.action)}
     }
 
-    // changing the language displayed
-    // note that this function is not binded to the app component but to the
-    // component receiving this function as a prop (this is made on purpose)
-    langChange = () => {
-        this.setState({'lang' : this.state.lang === 'fr' ? 'us' : 'fr'})
+    // cookies updated in the store
+    readCookie(){
+        var cookies = {"langage" : "",}
+
+        var cooks = document.cookie
+        // parse result
+        cooks = cooks.split(";")
+
+        // find langage and best score
+        for (var k = 0; k < cooks.length; k++){
+            var str = cooks[k].replace(/\s/g, '')
+
+            if(str.substring(0, 8) === "langage"){cookies.langage = str.split("=")[1]}
+            else{}
+        }
+        return(cookies)
     }
 
     // get the current langage used
-    getLang = () => (this.state.lang)
+    getLang = () => {return(this.state.lang);}
 
     render(){
-        console.log("app rendue");
+
       return (
         <div className="App">
             <Provider store = {Store}>
-              <Header getAction = {this.getAction} getLang = {this.getLang} langChange = {this.langChange}/>
+              <Header getAction = {this.getAction}/>
               <Middle getAction = {this.getAction}/>
               <Foot actionChange = {this.actionChange} getLang = {this.getLang}/>
             </Provider>
@@ -52,6 +63,3 @@ class App extends React.Component{
 }
 
 export default App;
-
-
-////////////////: avancer le header: rajouter les boutons, pareil pour le bottom
