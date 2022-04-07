@@ -1,28 +1,19 @@
 {
   "files": {
-    "main.css": "/tourHanoi/static/css/main.16a4e5e8.chunk.css",
-    "main.js": "/tourHanoi/static/js/main.c9fd736b.chunk.js",
-    "main.js.map": "/tourHanoi/static/js/main.c9fd736b.chunk.js.map",
-    "runtime-main.js": "/tourHanoi/static/js/runtime-main.2c10a906.js",
-    "runtime-main.js.map": "/tourHanoi/static/js/runtime-main.2c10a906.js.map",
-    "static/js/2.c8a401db.chunk.js": "/tourHanoi/static/js/2.c8a401db.chunk.js",
-    "static/js/2.c8a401db.chunk.js.map": "/tourHanoi/static/js/2.c8a401db.chunk.js.map",
+    "main.css": "/tourHanoi/static/css/main.d7f58c3f.css",
+    "main.js": "/tourHanoi/static/js/main.61173af3.js",
+    "static/media/img_home.jpg": "/tourHanoi/static/media/img_home.04a2327fffaa7b942378.jpg",
+    "static/media/homepage.png": "/tourHanoi/static/media/homepage.3acae9f82e6727ff9808.png",
+    "static/media/US_flag.jpg": "/tourHanoi/static/media/US_flag.590e4bf8ef2e629052ff.jpg",
+    "static/media/play.png": "/tourHanoi/static/media/play.1ccaa5ff469354419f45.png",
+    "static/media/pause.png": "/tourHanoi/static/media/pause.15d9f700375c3f780b5f.png",
+    "static/media/stop.png": "/tourHanoi/static/media/stop.775ed8bdaec0ca4db750.png",
     "index.html": "/tourHanoi/index.html",
-    "precache-manifest.335a30385d4dfee9af6d754a00cfe139.js": "/tourHanoi/precache-manifest.335a30385d4dfee9af6d754a00cfe139.js",
-    "service-worker.js": "/tourHanoi/service-worker.js",
-    "static/css/main.16a4e5e8.chunk.css.map": "/tourHanoi/static/css/main.16a4e5e8.chunk.css.map",
-    "static/js/2.c8a401db.chunk.js.LICENSE": "/tourHanoi/static/js/2.c8a401db.chunk.js.LICENSE",
-    "static/media/US_flag.jpg": "/tourHanoi/static/media/US_flag.f22d0b17.jpg",
-    "static/media/homepage.png": "/tourHanoi/static/media/homepage.4310b865.png",
-    "static/media/index.css": "/tourHanoi/static/media/img_home.6e78eb0d.jpg",
-    "static/media/pause.png": "/tourHanoi/static/media/pause.e88966ce.png",
-    "static/media/play.png": "/tourHanoi/static/media/play.f857eff1.png",
-    "static/media/stop.png": "/tourHanoi/static/media/stop.d0797a01.png"
+    "main.d7f58c3f.css.map": "/tourHanoi/static/css/main.d7f58c3f.css.map",
+    "main.61173af3.js.map": "/tourHanoi/static/js/main.61173af3.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.2c10a906.js",
-    "static/js/2.c8a401db.chunk.js",
-    "static/css/main.16a4e5e8.chunk.css",
-    "static/js/main.c9fd736b.chunk.js"
+    "static/css/main.d7f58c3f.css",
+    "static/js/main.61173af3.js"
   ]
 }
